@@ -1,0 +1,101 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .search-bar {
+    display: flex;
+}
+
+header .search-bar input {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+header .search-bar button {
+    padding: 5px 10px;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+.categories {
+    margin-bottom: 20px;
+}
+
+.categories h2 {
+    margin-bottom: 10px;
+}
+
+.category-list {
+    display: flex;
+    gap: 10px;
+}
+
+.category-item {
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    flex: 1;
+}
+
+.listings h2 {
+    margin-bottom: 10px;
+}
+
+.listing {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
